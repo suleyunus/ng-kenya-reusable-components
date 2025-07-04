@@ -1,6 +1,6 @@
 import { Directive } from '@angular/core';
 
 @Directive({
-  selector: '[appCardFooter]'
+  selector: 'app-card-footer, [appCardFooter]'
 })
 export class CardFooter { }

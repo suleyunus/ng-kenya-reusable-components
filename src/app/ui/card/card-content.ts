@@ -1,6 +1,6 @@
 import { Directive } from '@angular/core';
 
 @Directive({
-  selector: '[appCardContent]'
+  selector: 'app-card-content, [appCardContent]'
 })
 export class CardContent { }
